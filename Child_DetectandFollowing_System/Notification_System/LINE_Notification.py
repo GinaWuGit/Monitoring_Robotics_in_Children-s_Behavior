@@ -60,9 +60,9 @@ with open('pose_estimation_project.pkl', 'wb') as f: #train model
 import requests
 
 # 設置IFTTT Webhook URL和LINE Notify 權杖
-ifttt_webhook_url = "https://maker.ifttt.com/trigger/【孩童不良行為發生!!】/with/key/cEHIyo8xraNi0CXMcoeocM"
+ifttt_webhook_url = "****"
 line_notify_api_url = "https://notify-api.line.me/api/notify"
-line_notify_access_token = "Q4srdncUDJdUGRcAljr2EyVSwp2iAygfWQwXbDSANVh"
+line_notify_access_token = "***"
 
 # 要發送的訊息
 message = "Gina"
